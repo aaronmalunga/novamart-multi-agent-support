@@ -9,7 +9,7 @@ Udacity project: Enterprise Multi-Agent Architecture with Amazon Bedrock AgentCo
 ## Key files
 
 - `src/agent_orchestrator.py` — completed implementation (Tasks 2, 3, 4 and 6)
-- `.env` — populated Knowledge Base IDs, AgentCore Runtime ARN and guardrail ID/version
+- `.env.example` — populated Knowledge Base IDs, AgentCore Runtime ARN and guardrail ID/version
 - `screenshots/01-test-suite-score-120-of-120.png` — full test suite (`python tests/test_agent.py all`) passing with 120/120
 - `screenshots/02-xray-service-map-all-agents.png` — X-Ray trace map: NovaMart-Orchestrator connected to all worker agents and the three Knowledge Bases
 - `screenshots/03-xray-service-map-list-view.png` — list view of the same trace-map nodes, with full names, latency and zero faults
